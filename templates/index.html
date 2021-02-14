@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Text Classifier</title>
+</head>
+
+<body>
+ <div class="login">
+	<h1>Text Classification</h1>
+
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="message" placeholder="Message" required="required" />
+        <input type="submit" class="btn btn-primary btn-block btn-large" value="Predict"></button>
+    </form>
+
+   <br>
+   <br>
+ </div>
+
+</body>
+</html>
